@@ -1,0 +1,144 @@
+
+    html, body, div, span, applet, object, iframe,
+    h2, h3, h4, h5, h6, p, blockquote, pre,
+   a, abbr, acronym, address, big, cite, code,
+   del, dfn, em, img, ins, kbd, q, s, samp,
+   small, strike, strong, sub, sup, tt, var,
+   b, u, i, center,
+   dl, dt, dd, ol, ul, li,
+   fieldset, form, label, legend,
+   table, caption, tbody, tfoot, thead, tr, th, td,
+   article, aside, canvas, details, embed, 
+   figure, figcaption, footer, header, hgroup, 
+   menu, nav, output, ruby, section, summary,
+   time, mark, audio, video {
+     margin: 0;
+     padding: 0;
+     border: 0;
+     }
+   
+       /*fonte= https://meyerweb.com/eric/tools/css/reset/*/
+   
+   
+     .container{
+        max-width: 1200px;
+        margin: 0 auto; 
+      }
+
+    .menu {
+        width: 100%;
+        background: #ffffff;
+        box-shadow: 0px 4px 30px -10px rgba(0, 0, 0, 0.1);
+      }
+       
+      .menu-flex {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+      }
+  
+      .menu-column {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        justify-content: flex-start;
+        }
+    .logo{
+        width: 119px;
+        height: 29px;
+        left: 130px;
+        top: 25px;
+
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 29px;
+        color: #000000;
+    }
+  
+      .menu-column.menu-second-column {
+        justify-content: flex-end;
+      }
+  
+      .menu-nav ul {
+        display: flex;
+        list-style: none;
+        gap: 10px; 
+      }
+  
+      .menu-nav ul li a {
+        text-decoration: none;
+        color: #585e65;
+      }
+  
+      .menu-link-button {
+        text-decoration: none;
+        height: 40px;
+        background-color: #4c6ef5;
+        color: #fff;
+        padding: 0 32px;
+        display: flex;
+        align-items: center;
+        border-radius: 4px;
+      }
+    .produto{
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 13px;
+        display: flex;
+        width: 1200px;
+        height: 630px;
+        margin: 0 auto;
+        justify-content:flex-start;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+        /*border: 1px solid black;*/
+
+}
+        .produtos {
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            padding: 10px 14px 5px 14px;
+            width: 24%;
+            height: 280px;
+            /*border: 1px solid black;8*/
+            border-radius: 8px;
+            background-color: #ffffff;
+        }
+
+    body{
+        background-color: #f1f1f1;
+    }
+    .foto img{
+      max-width: 100%;
+      width: 140px;
+      height: 120px;
+      object-fit: scale-down;
+      margin-bottom: 25px;
+    }
+            
+    .carrinho{
+      margin: 0px auto 3px auto;
+      text-decoration: none;
+      height: 35px;
+      background-color: #4c6ef5;
+      color: #fff;
+      padding: 0 48px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border-radius: 4px;
+      width: 170px;
+    }
+
+    .preco{
+        margin: 25px auto auto 2px;
+    }
+    .descricao{
+      margin-bottom: 20px;
+    }
