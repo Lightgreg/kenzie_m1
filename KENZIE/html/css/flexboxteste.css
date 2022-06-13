@@ -1,0 +1,35 @@
+div{
+background-color: brown;
+display: flex;
+max-height: 423px;
+max-width: 1154px;
+left: -640px;
+top: -361px;
+padding: 15px 15px;
+border-radius: 0px;
+padding: 79px, 53px, 79px, 53px;
+justify-content: space-between;
+align-items: center;
+border: 1px solid black;
+}
+div .caixa1{
+    background-color: blueviolet;
+    Width: 150px;
+    Height: 110px;
+    border-radius: 15px;
+    margin: 30px;
+}
+div .caixa2{
+    background-color: blueviolet;
+    Width: 150px;
+    Height: 110px;
+    border-radius: 15px;
+    margin: 30px;
+}
+div .caixa3{
+    background-color: blueviolet;
+    Width: 150px;
+    Height: 110px;
+    border-radius: 15px;
+    margin: 30px;
+}

@@ -1,0 +1,56 @@
+                             EXEMPLO DE TAGS (html)
+<head></head> = cabeçalho primeira tag a ser inserida na pagina dentro
+dela vao as outras tags ou tags FILHAS.
+...
+<!DOCTYPE html> -------------- especicificar o tipo de documento nesse caso html5
+<html lang="pt-BR">--------- continuaçao do tipo de documento introduzindo a lingua da pagina
+    <meta charset="utf-8"> ---- aqui é introduzido a codificaçao para s.o antigos.
+    <title> TITULO DA PAGINA </title>------ titulo da pagina(fica na parte superior da pagina na internet)</title></head>
+    <body>------ tudo oq faz parte da pagina como texto, imagens, etc...(VISAO DO USUARIO)</body>
+...
+                             TAGS PARA MARCAÇAO DE TEXTO
+<a href="LINK">CLICK</a> para ligaçao de hipertexto ou ligar paginas.
+			<p></p> PARAGRAFOS
+<em></em> enfase (transformando em italico)
+<strong></strong> enfase com muita importancia (transformando em negrito)
+<cite></cite> enfase para titulos(como nomes de livros ou relativos)
+<i></i> enfase em italico por simples gosto de textualizaçao ou nomes cientificos.
+<b></b> para negrito quando for palavra de ligua difente.
+<pre></pre> para texto onde os espaços e organizaçao ja estao prontos (vai mostrar do geito q ta)
+<div></div> mesma utilizaçao de <p></p> porem sem uma utilizaçao direta
+<spam></spam> mesma utilizaçao de qualquer comando para enfase sem utilizaçao direta
+                 simbolos para substituiçao que nao podem ser utilizados durante a codificaçao
+&quot;TEXTO&quot;
+&lt subistitui o simbolo ( < ) menor que
+&amp = &
+&quot = "
+
+                   ALGUMAS FORMAS DE USAR LINKS
+    //o hiperlink externo abre em uma nova janela ( _blank )
+    <a href="http://www.google.com" target="_blank">google.com</a>
+    //O link externo abre na mesma janela
+    <a href="http://www.google.com" >google.com</a>
+    //Link de e-mail que abre o cliente de e-mail padrão dos usuários
+    <a href="mailto:user@example.com" >Email User</a>
+    //leva a outro arquivo local no mesmo site
+    <a href="#page-section" >Link to page section</a>
+    //Link externo que abre em uma nova janela/aba usando uma imagem em vez de um texto
+    <a href="https://developer.mozilla.org/pt-BR/" target="_blank">Link to page section
+      <img src="https://mdn.mozillademos.org/files/6851/mdn_logo.png" /></a>
+
+                        MUDAR TAMANHO DAS IMAGENS
+//imagem com width e height fornecendo largura e altura
+    <img src="some_image.png" width="200" height="200">
+<img src="LINK" width="???" height="???">
+//imagem com alt fornecendo uma descrição
+    <img src="some_image.png" alt="MDN">
+
+                             TAGS PARA FORMULARIOS
+form = casinha para as informaçoes do formulario, lembrando que o label precisa do atributo for, que vem do atributo id que esta na tag para qual vai ser direcionada.
+input = tag com varias funções desde textos a números datas e qualquer outra informação que precise ser identificada.
+alguns exemplos =  text; number; date; month; password; radio; time; range; file; color;
+placeholder = texto auxiliar dentro das caixas de formularios
+radio = bolinha de seleçao
+select = criar lista de escolha dentro da pagina ( a select esta diretamente ligada com a OPTION que é para colocar quais sao elas.)
+textarea= cols"quantidade de colunas" e rows"de linhas"
+

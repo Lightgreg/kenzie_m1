@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form>
+        <div><label for="nome">nome</label></div>
+        <div><input type="text" id="nome" placeholder="digite seu nome aqui..."  name="nome" required="true"></div>
+
+        <div><label for="email">e-mail</label></div>
+        <div><input type="text" id="email" placeholder="digite seu e-mail aqui..." required></div>
+
+        <div><label for="descricao">Descriçao</label></div>
+        <textarea name="descricao" id="descricao" cols="30" rows="10" placeholder="fale mais sobre voce" required></textarea>
+
+        <div><label for="modulo">Modulo</label></div>
+        <select name="modulo" id="modulo" required>
+            <option value="">escolha a forma de pagamento</option>
+            <option value="isa">isa</option>
+            <option value="avista">avista</option>
+            <option value="parcelado">parcelado</option>
+        </select>
+        <div><label for="senha">Senha</label></div>
+        <div><input type="password" placeholder="Senha" name="senha" id="senha" required></div>
+
+        <div><label for="csenha">Confirmar senha</label></div>
+        <input type="password" placeholder="Confirmar senha" name="csenha" id="csenha" required>
+
+        <div><p>Deseja receber novidades em seu email?</p></div>
+        <div><label for="sim">Sim</label>
+        <input type="radio" name="novidade" id="sim" value="sim" required>
+        <label for="nao">Não</label>
+        <input type="radio" name="novidade" id="nao" value="nao" required></div>
+        
+        <button type="submit">Cadastrar</button>
+    </form>
+</body>
+</html>

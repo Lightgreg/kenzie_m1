@@ -1,0 +1,35 @@
+                         EXEMPLO DE TAGS (html)
+<head></head> = cabeçalho primeira tag a ser inserida na pagina dentro
+dela vao as outras tags ou tags FILHAS.
+
+...
+<!DOCTYPE html> -------------- especicificar o tipo de documento nesse caso html5
+<html lang="pt-BR">--------- continuaçao do tipo de documento introduzindo a lingua da pagina
+    <head>
+    <meta charset="utf-8"> ---- aqui é introduzido a codificaçao para s.o antigos.
+    <title> TITULO DA PAGINA </title>------ titulo da pagina(fica na parte superior da pagina na internet)
+    </head>    
+    <body>------ tudo oq faz parte da pagina como texto, imagens, etc...(VISAO DO USUARIO)
+    </body>
+</html>
+...
+
+                             TAGS PARA MARCAÇAO DE TEXTO
+<a href="LINK">CLICK</a> para ligaçao de hipertexto ou ligar paginas.
+			<p></p> PARAGRAFOS
+<em></em> enfase (transformando em italico)
+<strong></strong> enfase com muita importancia (transformando em negrito)
+<cite></cite> enfase para titulos(como nomes de livros ou relativos)
+<i></i> enfase em italico por simples gosto de textualizaçao ou nomes cientificos.
+<b></b> para negrito quando for palavra de ligua difente.
+<pre></pre> para texto onde os espaços e organizaçao ja estao prontos (vai mostrar do geito q ta)
+
+<div></div> mesma utilizaçao de <p></p> porem sem uma utilizaçao direta
+<spam></spam> mesma utilizaçao de qualquer comando para enfase sem utilizaçao direta
+                                    
+
+                 simbolos para substituiçao que nao podem ser utilizados durante a codificaçao
+&quot;TEXTO&quot;
+&lt subistitui o simbolo ( < ) menor que
+&amp = &
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulario</title>
+</head>
+<body>
+    <form>
+    <div><label for="nome">Nome</label></div> 
+    <div><input type="text" id="nome" placeholder="digite seu nome aqui..." name="nome" required="true"></div>
+    
+    <div><label for="email">E-mail</label></div>
+    <div><input type="text" id="email" placeholder="digite seu email aqui..." name="email" required="true"></div>
+    
+    <div><label for="descricao">Descrição</label></div>
+    <div><textarea name="descricao" id="descricao" cols="35" rows="10" required="true" placeholder="fale mais sobre voce..." ></textarea></div>
+    
+    <div><label for="modulo">Modulo</label></div>
+    <div><select name="modulo" id="modulo" required="true" >
+        <option value="">escolha uma opçao</option>
+        <option value="ISA">isa</option>
+        <option value="avista">avista</option></select></div>
+
+        <div><label for="senha">Senha</label></div>
+    <div><input type="password" id="senha" placeholder="digite sua senha aqui..." name="senha" required="true"></div>
+
+    <div><label for="csenha">confirmar senha</label></div>
+    <div><input type="password" id="csenha" placeholder="confirme sua senha aqui..." name="csenha" required="true"></div>
+
+    <div> <p>deseja receber novidades em seu email?</p> </div>
+
+    <div><label for="sim">SIM</label>
+        <input type="radio" name="novidades" id="sim" required="true" value="sim" >
+        <label for="nao">NÃO</label>
+         <input type="radio" name="novidades" id="nao" required="true" value="nao" ></div>
+         <button type="submit">cadastra</button>
+
+</form>
+</body>
+</html>

@@ -1,0 +1,33 @@
+                        LINKANDO O CSS
+<link rel="stylesheet" href="./local onde esta o arquivo css" />
+
+. = chama por class
+# = chama por id
+
+
+    USADO PARA TROCAR A COR DO ITEM QUANDO O MOUSE PASSAR EM CIMA
+:hover {background-color: green;}
+
+    USADO PARA TROCAR A COR QUANDO O ITEM FOR SELECIONADO
+
+:focus {border-color: green;}
+
+.list__item:first-child {background-color: #7126a0;} = primeiro da lista
+
+.list__item:last-child {background-color: #7126a0;} = ultimo
+
+.list__item:nth-child(odd) {background-color: #7126a0;} = impares
+
+.list__item:nth-child(even) {background-color: #7126a0;} = pares
+
+.list__item:nth-child(4) {background-color: #7126a0;} = posiçao exata
+
+.list__item:nth-child(n+3) {background-color: #7126a0;} = da posiçao em diante
+
+.list__item:nth-child(-n+3) {background-color: #7126a0;} = da posiçao para tras
+
+.list__item:nth-child(3n+1) {background-color: #7126a0;} = 1 a cada quantidade de N
+
+.list__item:nth-last-child(2) {background-color: #7126a0;} = penultimo
+
+backgound-color: linear-gradiente: COR COR FUNDO.
